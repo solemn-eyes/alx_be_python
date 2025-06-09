@@ -16,6 +16,7 @@ elif confirmation == 'F':
     converted_temp = convert_to_celsius(float(temperature))
     print(f"{temperature}°F is {converted_temp:.2f}°C")
 else:
-    print("Invalid input. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
+    print("Invalid input. Please enter a numeric value.")
+    
 
 
