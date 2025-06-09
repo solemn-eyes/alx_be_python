@@ -7,7 +7,7 @@ def display_menu():
     print("4. Exit")
 
 while True:
-    show_menu()
+    display_menu()
     choice = input("Enter your choice (1-4): ").strip()
 
     if choice == '1':
