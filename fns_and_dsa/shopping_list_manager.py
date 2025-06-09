@@ -1,5 +1,5 @@
 shopping_list = []
-def show_menu():
+def display_menu():
     print("\n=== Shopping List Menu ===")
     print("1. Add item")
     print("2. Remove item")
@@ -33,4 +33,3 @@ while True:
         break
     else:
         print("❗ Invalid choice. Please enter a number between 1 and 4.")
-        
