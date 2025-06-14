@@ -1,10 +1,10 @@
-from library_management import book, library
+from library_management import Book, Library
 
 def main():
     # Setup a small library
-    library = library()
-    library.add_book(book("Brave New World", "Aldous Huxley"))
-    library.add_book(book("1984", "George Orwell"))
+    library = Library()
+    library.add_book(Book("Brave New World", "Aldous Huxley"))
+    library.add_book(Book("1984", "George Orwell"))
 
     # Initial list of available books
     print("Available books after setup:")
@@ -22,3 +22,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
